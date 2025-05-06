@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 document.querySelectorAll('nav ul li a').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -112,4 +111,4 @@ new Typed('#element', {
     typeSpeed: 50,
     loop: true
 });
->>>>>>> c12eb2c74f7e5a3975138e9660a7a3effafe2f89
+

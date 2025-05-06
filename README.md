@@ -1,23 +1,8 @@
-# PERSONAL PORTFOLIO WEBPAGE--TASK 3
-
-# CODTECH-Task1
-
-**Name:**   MIASHMI DILEEP
-
-**Company:** CODTECH IT SOLUTIONS  
-
-**ID:** CT0806NA
-
-**Domain:** FRONTEND WEB DEVELOPMENT
-
-**Duration:** DECEMBER 2024 TO JANUARY 2025
-
-**Mentor:** SRAVANI GOUNI
+# PERSONAL PORTFOLIO WEBPAGE
 
 ## **Overview of the Project**  
 
 ### **Project:** Personal Portfolio Website  
-![Screenshot 2024-12-21 152237](https://github.com/user-attachments/assets/49d957a1-d330-4340-8cbc-64b17dd6fb03)
 
 **Objective**  
 The aim of this project is to create a dynamic and visually appealing personal portfolio website to showcase skills, projects, and professional experience. The website serves as a platform for self-representation, networking, and potential opportunities in the field of technology.  
