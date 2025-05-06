@@ -1,0 +1,1849 @@
+<<<<<<< HEAD
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: rgb(248, 240, 225);
+    color: rgb(146, 90, 11);
+    font-family: 'Playfair Display', sans-serif;
+    background-image: url('bgp.png');
+
+}
+
+#logo {
+    align-items: left;
+    display: inline-block;
+    width: 10%;
+    margin-left: -120px;
+}
+
+.clear {
+    clear: both;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(232, 198, 156);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    transition: top 0.3s ease;
+    /* Smooth transition for hover effect */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(103, 66, 11);
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(163, 101, 0);
+    font-size: 1.04rem;
+}
+
+body:not(#home) #navbar {
+    top: -60px;
+    
+}
+
+body:not(#home):hover #navbar {
+    top: 0;
+   
+}
+
+
+body:not(#home):not(:hover) #navbar {
+    top: -60px;
+}
+
+hr {
+    border: 0;
+    background: rgb(133, 71, 10);
+    height: 1.2px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: -20px;
+}
+
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+    height: 530px;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 2.5rem;
+
+}
+
+.leftSection .bttons {
+    padding: 50px 0;
+}
+
+.leftSection .btn {
+    padding: 12px 20px;
+    background: linear-gradient(to bottom right, rgb(232, 198, 156), rgb(212, 168, 126));
+    color: rgb(123, 72, 0);
+    border: 2px solid rgb(190, 157, 113);
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+.leftSection .btn:hover {
+    background: linear-gradient(to bottom right, rgb(212, 168, 126), rgb(232, 198, 156));
+    color: rgb(90, 50, 0);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 8px 24px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+}
+
+.rightSection img {
+    width: 95%;
+    margin: 50px 0;
+}
+
+.pink {
+    color: rgb(225, 163, 39);
+}
+
+#element {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 8px #000000;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin-top: 120px;
+    margin-bottom: 110px;
+    margin-left: 90px;
+    height: 80vh;
+}
+
+.secondSection h1 {
+    font-size: 2rem;
+    margin-bottom: 100px;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.secondSection .box {
+    background: rgb(132, 71, 15);
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .vertical {
+    height: 93px;
+    width: 2px;
+    background: rgb(132, 71, 15);
+    margin: 0 7.5vw;
+}
+
+.aimage-top {
+
+    width: 140px;
+    position: relative;
+    top: -70px;
+    /* Moves the image 50px above */
+    left: -70px;
+    /* Moves the image 30px to the left */
+}
+
+.bimage-top {
+    width: 140px;
+    position: relative;
+    top: -50px;
+    /* Moves the image 50px above */
+    left: -72px;
+    /* Moves the image 30px to the left */
+}
+
+.cimage-top {
+    width: 140px;
+    position: relative;
+    top: -70px;
+    /* Moves the image 50px above */
+    left: -70px;
+    /* Moves the image 30px to the left */
+}
+
+.dimage-top {
+    width: 140px;
+    position: relative;
+    top: -50px;
+    /* Moves the image 50px above */
+    left: -60px;
+    /* Moves the image 30px to the left */
+}
+
+.eimage-top {
+    width: 140px;
+    position: relative;
+    top: -70px;
+    /* Moves the image 50px above */
+    left: -70px;
+    /* Moves the image 30px to the left */
+}
+
+.avertical-title {
+    position: relative;
+    width: 150px;
+    left: -10px;
+    top: -44px;
+    font-size: large;
+}
+
+.avertical-desc {
+    position: relative;
+    left: -10px;
+    color: rgb(106, 83, 43);
+    width: 150px;
+    font-size: 12px;
+    text-align: justify;
+    top: -44px;
+    margin-bottom: 100px;
+    font-size: 13px;
+}
+
+.bvertical-title {
+    position: relative;
+    width: 150px;
+    left: -10px;
+    font-size: large;
+}
+
+.bvertical-desc {
+    position: relative;
+    left: -10px;
+    color: rgb(106, 83, 43);
+    width: 150px;
+    font-size: 12px;
+    text-align: justify;
+    font-size: 13px;
+}
+
+.cvertical-title {
+    position: relative;
+    width: 150px;
+    left: -10px;
+    top: -44px;
+    font-size: large;
+}
+
+.cvertical-desc {
+    position: relative;
+    left: -10px;
+    color: rgb(106, 83, 43);
+    width: 150px;
+    font-size: 12px;
+    text-align: justify;
+    top: -44px;
+    font-size: 13px;
+}
+
+.dvertical-title {
+    position: relative;
+    width: 150px;
+    left: -10px;
+    font-size: large;
+}
+
+.dvertical-desc {
+    position: relative;
+    left: -10px;
+    color: rgb(106, 83, 43);
+    width: 150px;
+    font-size: 12px;
+    text-align: justify;
+    font-size: 13px;
+}
+
+.evertical-title {
+    position: relative;
+    width: 150px;
+    left: -10px;
+    top: -44px;
+    font-size: large;
+}
+
+.evertical-desc {
+    position: relative;
+    left: -10px;
+    color: rgb(106, 83, 43);
+    width: 150px;
+    font-size: 12px;
+    text-align: justify;
+    top: -44px;
+    font-size: 13px;
+}
+
+.aimage-top:hover {
+    transform: scale(1.05);
+}
+
+.bimage-top:hover {
+    transform: scale(1.05);
+}
+
+.cimage-top:hover {
+    transform: scale(1.05);
+}
+
+.dimage-top:hover {
+    transform: scale(1.05);
+}
+
+.eimage-top:hover {
+    transform: scale(1.05);
+}
+
+.about {
+    gap: 10px;
+    height: 600px;
+    margin-right: 100px;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.aleftsection h1 {
+    margin-top: -30px;
+    margin-bottom: 100px;
+    font-size: 2rem;
+}
+
+.aleftsection img {
+    width: 50%;
+    /* Reduce the width (adjust as needed) */
+}
+
+.aleftsection {
+    width: 50%;
+    margin-left: 90px;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+
+
+.about p {
+    margin-bottom: 15px;
+    /* between paragraphs */
+}
+
+
+.aleftsection {
+    flex: 1;
+    /* Ensure equal spacing for both sections */
+}
+
+.arightSection {
+    flex: 1;
+}
+
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    /* Adjust the gap between sections */
+}
+
+.aleftsection {
+    flex: 1;
+    /* Allow this section to take less space */
+}
+
+.aleftsection img {
+    width: 80%;
+    /* Adjust width of the GIF */
+
+    display: block;
+}
+
+.arightSection {
+    flex: 2;
+    color: #5e3006;
+    font-size: 1.4rem;
+    /* Make the text section take more space */
+    margin-left: -20px;
+    /* Move the text closer to the left (adjust as needed) */
+    padding-right: 20px;
+    /* Add some padding on the right for spacing */
+    margin-top: 60px;
+   
+}
+
+
+/* General Styling for Section Headings */
+.section-heading {
+    /* 100px away from the left margin */
+    font-size: 2rem;
+    margin-top: 40px;
+    font-weight: bold;
+    color: rgb(146, 90, 11);
+    /* Brown font color */
+    margin-bottom: 20px;
+    /* Adds spacing below the heading */
+    text-align: left;
+    /* Align header to the left */
+}
+
+
+#projects-skills {
+  margin: 60px 100px;
+}
+
+.prsk {
+  margin-left: 100px;
+  height: auto; /* changed from 530px to auto for flexibility */
+}
+
+.content-wrapper {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* Projects Section */
+.projects-section {
+  flex: 1;
+  min-width: 300px;
+}
+
+.projects-section h2 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #be833b;
+}
+
+/* Grid with 2 columns */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px 40px;
+}
+
+/* Each project card */
+.project-card {
+  background-color: #ffecc8;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #683203;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.project-card a {
+  text-decoration: none;
+  color: #683203;
+  font-weight: bold;
+  display: block;
+  margin-top: 12px;
+}
+
+/* Project Image */
+.project-image {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+
+/* Skills Section */
+.skills-section {
+    margin-left: 250px;
+    flex: 1;
+    min-width: 300px;
+}
+.skills-section h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #be833b;
+}
+
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+
+.skills-category h3 {
+  color: #805401;
+  margin-bottom: 10px;
+}
+
+.skills-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 100%;
+}
+
+
+.skills-icons img {
+  width: 70px;
+  height: 70px;
+    margin-bottom: 0;
+    gap:10;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.skills-icons img:hover {
+  transform: scale(1.1);
+}
+
+.rating {
+    height: 100%;
+    background: #d48320;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: width 0.3s;
+}
+
+
+form input,
+form textarea {
+    width: calc(100% - 20px);
+    /* Reduces the width slightly for better spacing inside the form */
+    margin: 10px auto;
+    /* Adds vertical spacing and centers the elements */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+.contact-section {
+    padding: 40px 20px;
+    background: rgb(247, 241, 230, 0.4);
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin: 40px 100px;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    color: rgb(146, 90, 11);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contact-container {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.social-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.social-logo {
+    max-width: 100px;
+    max-height: 100px;
+    cursor: pointer;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.social-logo:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+.form-column {
+    flex: 2;
+    background: #ffecc8;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-column form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-column input,
+.form-column textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #653100;
+    border-radius: 5px;
+    font-size: 1rem;
+    background: #fff8ec;
+    color: #653100;
+    resize: none;
+}
+
+.form-column button {
+    padding: 10px 20px;
+    background: #653100;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.form-column button:hover {
+    background: #e6b07e;
+    transform: scale(1.05);
+}
+
+
+footer {
+    background-color: rgb(232, 198, 156);
+    /* Light beige background */
+    padding: 20px 0;
+    /* Top and bottom padding for the footer */
+    text-align: center;
+    /* Center-align content */
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    /* Center items horizontally */
+    gap: 20px;
+    /* Space between items */
+    font-size: 1rem;
+    color: rgb(123, 72, 0);
+    /* Brown color for text */
+}
+
+.footer-nav {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.footer a {
+    text-decoration: none;
+    /* Remove underline */
+    color: rgb(123, 72, 0);
+    /* Same brown color for links */
+    margin: 0 10px;
+    /* Add spacing between links */
+    transition: color 0.3s;
+    /* Smooth hover effect */
+}
+
+.footer a:hover {
+    color: rgb(190, 157, 113);
+    /* Lighter brown on hover */
+}
+
+.footer-rights {
+    position: relative;
+    padding: 20px 0;
+    text-align: center;
+    background-color: rgb(255, 221, 174);
+    /* Slightly lighter beige */
+    color: #555;
+    /* Gray for copyright text */
+    font-size: 0.9rem;
+}
+
+.wave-left,
+.wave-right {
+    position: absolute;
+    bottom: -20px;
+    /* Ensure the waves stay within the footer */
+    height: 60px;
+    width: 632.5px;
+    /* Adjust the width for better scaling */
+}
+
+.wave-left {
+    left: 0;
+    /* Position at the bottom-left corner */
+}
+
+.wave-right {
+    right: 0;
+    /* Position at the bottom-right corner */
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        background-color: rgb(248, 240, 225);
+    }
+
+    .firstSection {
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+
+    .about {
+        margin-top: 90px;
+        align-items: center;
+        text-align: center;
+        height: 1050px;
+    }
+
+    .arightSection {
+        text-align: justify;
+        margin-left: 165px;
+    }
+
+
+    .secondSection h1 {
+        margin-top: 60px;
+    }
+
+    .secondSection .vertical {
+        height: unset;
+    }
+
+    .secondSection .box {
+        flex-direction: column;
+        width: 50vw;
+    }
+
+    .bimage-top {
+        margin-top: -100px;
+    }
+
+    .cimage-top{
+        margin-top: 90px;
+    }
+
+    .dimage-top{
+        margin-top: 60px;
+    }
+
+    .eimage-top{
+        margin-top: 90px;
+    }
+
+    .avertical-title {
+        left: 40px;
+        margin-top: -60px;
+    }
+
+    .bvertical-title {
+        left: 40px;
+        margin-top: -60px;
+    }
+
+    .cvertical-title {
+        left: 40px;
+        margin-top: -60px;
+    }
+
+    .dvertical-title {
+        left: 40px;
+        margin-top: -60px;
+    }
+
+    .evertical-title {
+        left: 40px;
+        margin-top: -50px;
+    }
+
+    .avertical-desc {
+        left: 45px;
+    }
+
+    .bvertical-desc {
+        left: 45px;
+    }
+
+    .cvertical-desc {
+        left: 45px;
+    }
+
+    .dvertical-desc {
+        left: 45px;
+    }
+
+    .evertical-desc {
+        left: 45px;
+    }
+
+
+    nav {
+        flex-direction: column;
+    }
+
+    .leftSection {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rightSection {
+        width: 721px !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .rightSection img {
+        width: 45vw;
+    }
+
+    .image-top {
+        top: 133px;
+    }
+
+    .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 2500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .prsk {
+        height: 1100px;
+    }
+
+    
+    .project-grid {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .project-card{
+      
+        width:120%;
+    }
+
+    body {
+        min-width: fit-c ontent;
+    }
+
+    .about {
+        flex-direction: column;
+        gap: 10px;
+        /* Adjust gap for smaller screens */
+    }
+
+    .aleftsection img {
+        width: 100%;
+        /* Allow the GIF to take full width */
+        margin: 10px 0;
+        /* Adjust margins for smaller devices */
+    }
+
+    .arightSection {
+        width: 100%;
+    }
+
+    .wave-left,
+.wave-right {
+    position: absolute;
+    bottom: -20px;
+    /* Ensure the waves stay within the footer */
+    height: 60px;
+    width: 382px;
+    /* Adjust the width for better scaling */
+}
+.footer-rights {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 30px;
+ 
+    text-align: center;
+    background-color: rgb(255, 221, 174);
+    /* Slightly lighter beige */
+    color: #555;
+    /* Gray for copyright text */
+    font-size: 0.9rem;
+}
+nav ul li {
+    list-style: none;
+    margin-top: -7px;
+    margin-bottom: 5px;
+}
+
+
+    #logo {
+        align-items: left;
+        display: inline-block;
+        width: 10%;
+        margin-left: 0px;
+    }
+
+=======
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: rgb(248, 240, 225);
+    color: rgb(146, 90, 11);
+    font-family: 'Playfair Display', sans-serif;
+    background-image: url('bgp.png');
+
+}
+
+#logo {
+    align-items: left;
+    display: inline-block;
+    width: 10%;
+    margin-left: -120px;
+}
+
+.clear {
+    clear: both;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(232, 198, 156);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    transition: top 0.3s ease;
+    /* Smooth transition for hover effect */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(103, 66, 11);
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(163, 101, 0);
+    font-size: 1.04rem;
+}
+
+/* Initially hide the navbar when scrolling through sections other than Home */
+body:not(#home) #navbar {
+    top: -60px;
+    /* Hide the navbar initially */
+}
+
+/* When hovering near the top, show the navbar */
+body:not(#home):hover #navbar {
+    top: 0;
+    /* Make navbar visible */
+}
+
+/* Ensure navbar is hidden when scrolling down */
+body:not(#home):not(:hover) #navbar {
+    top: -60px;
+}
+
+
+
+hr {
+    border: 0;
+    background: rgb(133, 71, 10);
+    height: 1.2px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: -20px;
+}
+
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+    height: 530px;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 2.5rem;
+
+}
+
+.leftSection .bttons {
+    padding: 50px 0;
+}
+
+.leftSection .btn {
+    padding: 12px 20px;
+    background: linear-gradient(to bottom right, rgb(232, 198, 156), rgb(212, 168, 126));
+    color: rgb(123, 72, 0);
+    border: 2px solid rgb(190, 157, 113);
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+.leftSection .btn:hover {
+    background: linear-gradient(to bottom right, rgb(212, 168, 126), rgb(232, 198, 156));
+    color: rgb(90, 50, 0);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 8px 24px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+}
+
+.rightSection img {
+    width: 95%;
+    margin: 50px 0;
+}
+
+.pink {
+    color: rgb(225, 163, 39);
+}
+
+#element {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 8px #000000;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin-top: 120px;
+    margin-bottom: 110px;
+    margin-left: 90px;
+    height: 80vh;
+}
+
+.secondSection h1 {
+    font-size: 2rem;
+    margin-bottom: 100px;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.secondSection .box {
+    background: rgb(132, 71, 15);
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .vertical {
+    height: 93px;
+    width: 2px;
+    background: rgb(132, 71, 15);
+    margin: 0 7.5vw;
+}
+
+.aimage-top {
+
+    width: 140px;
+    position: relative;
+    top: -70px;
+    /* Moves the image 50px above */
+    left: -70px;
+    /* Moves the image 30px to the left */
+}
+
+.bimage-top {
+    width: 140px;
+    position: relative;
+    top: -50px;
+    /* Moves the image 50px above */
+    left: -72px;
+    /* Moves the image 30px to the left */
+}
+
+.cimage-top {
+    width: 140px;
+    position: relative;
+    top: -70px;
+    /* Moves the image 50px above */
+    left: -70px;
+    /* Moves the image 30px to the left */
+}
+
+.dimage-top {
+    width: 140px;
+    position: relative;
+    top: -50px;
+    /* Moves the image 50px above */
+    left: -60px;
+    /* Moves the image 30px to the left */
+}
+
+.eimage-top {
+    width: 140px;
+    position: relative;
+    top: -70px;
+    /* Moves the image 50px above */
+    left: -70px;
+    /* Moves the image 30px to the left */
+}
+
+.avertical-title {
+    position: relative;
+    width: 150px;
+    left: -10px;
+    top: -44px;
+    font-size: large;
+}
+
+.avertical-desc {
+    position: relative;
+    left: -10px;
+    color: rgb(106, 83, 43);
+    width: 150px;
+    font-size: 12px;
+    text-align: justify;
+    top: -44px;
+    margin-bottom: 100px;
+    font-size: 13px;
+}
+
+.bvertical-title {
+    position: relative;
+    width: 150px;
+    left: -10px;
+    font-size: large;
+}
+
+.bvertical-desc {
+    position: relative;
+    left: -10px;
+    color: rgb(106, 83, 43);
+    width: 150px;
+    font-size: 12px;
+    text-align: justify;
+    font-size: 13px;
+}
+
+.cvertical-title {
+    position: relative;
+    width: 150px;
+    left: -10px;
+    top: -44px;
+    font-size: large;
+}
+
+.cvertical-desc {
+    position: relative;
+    left: -10px;
+    color: rgb(106, 83, 43);
+    width: 150px;
+    font-size: 12px;
+    text-align: justify;
+    top: -44px;
+    font-size: 13px;
+}
+
+.dvertical-title {
+    position: relative;
+    width: 150px;
+    left: -10px;
+    font-size: large;
+}
+
+.dvertical-desc {
+    position: relative;
+    left: -10px;
+    color: rgb(106, 83, 43);
+    width: 150px;
+    font-size: 12px;
+    text-align: justify;
+    font-size: 13px;
+}
+
+.evertical-title {
+    position: relative;
+    width: 150px;
+    left: -10px;
+    top: -44px;
+    font-size: large;
+}
+
+.evertical-desc {
+    position: relative;
+    left: -10px;
+    color: rgb(106, 83, 43);
+    width: 150px;
+    font-size: 12px;
+    text-align: justify;
+    top: -44px;
+    font-size: 13px;
+}
+
+.aimage-top:hover {
+    transform: scale(1.05);
+}
+
+.bimage-top:hover {
+    transform: scale(1.05);
+}
+
+.cimage-top:hover {
+    transform: scale(1.05);
+}
+
+.dimage-top:hover {
+    transform: scale(1.05);
+}
+
+.eimage-top:hover {
+    transform: scale(1.05);
+}
+
+.about {
+    gap: 10px;
+    height: 600px;
+    margin-right: 100px;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.aleftsection h1 {
+    margin-top: -30px;
+    margin-bottom: 100px;
+    font-size: 2rem;
+}
+
+.aleftsection img {
+    width: 50%;
+    /* Reduce the width (adjust as needed) */
+}
+
+.aleftsection {
+    width: 50%;
+    margin-left: 90px;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+
+
+.about p {
+    margin-bottom: 15px;
+    /* between paragraphs */
+}
+
+
+.aleftsection {
+    flex: 1;
+    /* Ensure equal spacing for both sections */
+}
+
+.arightSection {
+    flex: 1;
+}
+
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    /* Adjust the gap between sections */
+}
+
+.aleftsection {
+    flex: 1;
+    /* Allow this section to take less space */
+}
+
+.aleftsection img {
+    width: 80%;
+    /* Adjust width of the GIF */
+
+    display: block;
+}
+
+.arightSection {
+    flex: 2;
+    /* Make the text section take more space */
+    margin-left: -20px;
+    /* Move the text closer to the left (adjust as needed) */
+    padding-right: 20px;
+    /* Add some padding on the right for spacing */
+    margin-top: 50px;
+}
+
+
+/* General Styling for Section Headings */
+.section-heading {
+    /* 100px away from the left margin */
+    font-size: 2rem;
+    margin-top: 40px;
+    font-weight: bold;
+    color: rgb(146, 90, 11);
+    /* Brown font color */
+    margin-bottom: 20px;
+    /* Adds spacing below the heading */
+    text-align: left;
+    /* Align header to the left */
+}
+
+
+/* General Layout */
+#projects-skills {
+    margin: 60px 100px;
+}
+
+.prsk {
+    margin-left: 100px;
+    height: 530px;
+}
+
+.content-wrapper {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/* Projects Section */
+.projects-section {
+    flex: 1;
+    min-width: 300px;
+}
+
+.project-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.projects-section h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #be833b;
+}
+
+.skills-section h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #be833b;
+}
+
+.project-card {
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 1rem;
+    transition: transform 0.3s;
+    cursor: pointer;
+    background-color: #ffecc8;
+    color: #683203;
+    /* Brown color for text */
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+/* Skills Section */
+.skills-section {
+    flex: 1;
+    min-width: 300px;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+
+}
+
+.skills-list li {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skill-bar {
+    width: 70%;
+    border-radius: 5px;
+    border: 1px solid #653100;
+    /* Brown border for contrast */
+    height: 10px;
+    overflow: hidden;
+    margin-left: 10px;
+    position: relative;
+    background: transparent;
+    /* Removed background */
+}
+
+.rating {
+    height: 100%;
+    background: #d48320;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: width 0.3s;
+}
+
+
+form input,
+form textarea {
+    width: calc(100% - 20px);
+    /* Reduces the width slightly for better spacing inside the form */
+    margin: 10px auto;
+    /* Adds vertical spacing and centers the elements */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+.contact-section {
+    padding: 40px 20px;
+    background: rgb(247, 241, 230, 0.4);
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin: 40px 100px;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    color: rgb(146, 90, 11);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contact-container {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.social-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.social-logo {
+    max-width: 100px;
+    max-height: 100px;
+    cursor: pointer;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.social-logo:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+.form-column {
+    flex: 2;
+    background: #ffecc8;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-column form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-column input,
+.form-column textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #653100;
+    border-radius: 5px;
+    font-size: 1rem;
+    background: #fff8ec;
+    color: #653100;
+    resize: none;
+}
+
+.form-column button {
+    padding: 10px 20px;
+    background: #653100;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.form-column button:hover {
+    background: #e6b07e;
+    transform: scale(1.05);
+}
+
+
+footer {
+    background-color: rgb(232, 198, 156);
+    /* Light beige background */
+    padding: 20px 0;
+    /* Top and bottom padding for the footer */
+    text-align: center;
+    /* Center-align content */
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    /* Center items horizontally */
+    gap: 20px;
+    /* Space between items */
+    font-size: 1rem;
+    color: rgb(123, 72, 0);
+    /* Brown color for text */
+}
+
+.footer-nav {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.footer a {
+    text-decoration: none;
+    /* Remove underline */
+    color: rgb(123, 72, 0);
+    /* Same brown color for links */
+    margin: 0 10px;
+    /* Add spacing between links */
+    transition: color 0.3s;
+    /* Smooth hover effect */
+}
+
+.footer a:hover {
+    color: rgb(190, 157, 113);
+    /* Lighter brown on hover */
+}
+
+.footer-rights {
+    position: relative;
+    padding: 20px 0;
+    text-align: center;
+    background-color: rgb(255, 221, 174);
+    /* Slightly lighter beige */
+    color: #555;
+    /* Gray for copyright text */
+    font-size: 0.9rem;
+}
+
+.wave-left,
+.wave-right {
+    position: absolute;
+    bottom: -20px;
+    /* Ensure the waves stay within the footer */
+    height: 60px;
+    width: 632.5px;
+    /* Adjust the width for better scaling */
+}
+
+.wave-left {
+    left: 0;
+    /* Position at the bottom-left corner */
+}
+
+.wave-right {
+    right: 0;
+    /* Position at the bottom-right corner */
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        background-color: rgb(248, 240, 225);
+    }
+
+    .firstSection {
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+
+    .about {
+        margin-top: 90px;
+        align-items: center;
+        text-align: center;
+        height: 1050px;
+    }
+
+    .arightSection {
+        text-align: justify;
+        margin-left: 165px;
+    }
+
+
+    .secondSection h1 {
+        margin-top: 60px;
+    }
+
+    .secondSection .vertical {
+        height: unset;
+    }
+
+    .secondSection .box {
+        flex-direction: column;
+        width: 50vw;
+    }
+
+    .bimage-top {
+        margin-top: -100px;
+    }
+
+    .cimage-top{
+        margin-top: 90px;
+    }
+
+    .dimage-top{
+        margin-top: 60px;
+    }
+
+    .eimage-top{
+        margin-top: 90px;
+    }
+
+    .avertical-title {
+        left: 40px;
+        margin-top: -60px;
+    }
+
+    .bvertical-title {
+        left: 40px;
+        margin-top: -60px;
+    }
+
+    .cvertical-title {
+        left: 40px;
+        margin-top: -60px;
+    }
+
+    .dvertical-title {
+        left: 40px;
+        margin-top: -60px;
+    }
+
+    .evertical-title {
+        left: 40px;
+        margin-top: -50px;
+    }
+
+    .avertical-desc {
+        left: 45px;
+    }
+
+    .bvertical-desc {
+        left: 45px;
+    }
+
+    .cvertical-desc {
+        left: 45px;
+    }
+
+    .dvertical-desc {
+        left: 45px;
+    }
+
+    .evertical-desc {
+        left: 45px;
+    }
+
+
+    nav {
+        flex-direction: column;
+    }
+
+    .leftSection {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rightSection {
+        width: 721px !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .rightSection img {
+        width: 45vw;
+    }
+
+    .image-top {
+        top: 133px;
+    }
+
+    .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 2500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .prsk {
+        height: 1100px;
+    }
+
+    
+    .project-grid {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .project-card{
+      
+        width:120%;
+    }
+
+    body {
+        min-width: fit-c ontent;
+    }
+
+    .about {
+        flex-direction: column;
+        gap: 10px;
+        /* Adjust gap for smaller screens */
+    }
+
+    .aleftsection img {
+        width: 100%;
+        /* Allow the GIF to take full width */
+        margin: 10px 0;
+        /* Adjust margins for smaller devices */
+    }
+
+    .arightSection {
+        width: 100%;
+    }
+
+    .wave-left,
+.wave-right {
+    position: absolute;
+    bottom: -20px;
+    /* Ensure the waves stay within the footer */
+    height: 60px;
+    width: 382px;
+    /* Adjust the width for better scaling */
+}
+.footer-rights {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 30px;
+ 
+    text-align: center;
+    background-color: rgb(255, 221, 174);
+    /* Slightly lighter beige */
+    color: #555;
+    /* Gray for copyright text */
+    font-size: 0.9rem;
+}
+nav ul li {
+    list-style: none;
+    margin-top: -7px;
+    margin-bottom: 5px;
+}
+
+
+    #logo {
+        align-items: left;
+        display: inline-block;
+        width: 10%;
+        margin-left: 0px;
+    }
+
+>>>>>>> c12eb2c74f7e5a3975138e9660a7a3effafe2f89
+}
