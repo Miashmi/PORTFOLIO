@@ -3,6 +3,7 @@
 ## **Overview of the Project**  
 
 ### **Project:** Personal Portfolio Website  
+![image](https://github.com/user-attachments/assets/60a9a43f-7c5d-4b08-8e78-9a163705bc3c)
 
 **Objective**  
 The aim of this project is to create a dynamic and visually appealing personal portfolio website to showcase skills, projects, and professional experience. The website serves as a platform for self-representation, networking, and potential opportunities in the field of technology.  
